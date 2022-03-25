@@ -11,9 +11,9 @@ namespace MatchThree {
             ResKit.Init();
 
             // Register System
-
+            RegisterSystem<GameSystem>(new GameSystem());
             // Register Utility
-            RegisterSystem<IDialogue>(new DialogueSystem());
+            //RegisterSystem<IDialogue>(new DialogueSystem());
 
             // Register Models
         }
